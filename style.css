@@ -1,10 +1,14 @@
 body {
-    background-color:aqua;
+    background-color:cadetBlue;
+    font-family:monospace;
 }
 
 h1 {
     text-align: center;
-    color:blue;
+    color:cyan;
+    font-size:3em;
+    background-color:orange;
+    border-radius:15px;
 }
 
 table {
@@ -14,12 +18,16 @@ td {
     padding-right: 30px;
     border: 1px solid black;
     padding-left: 10px;
-    background-color: yellow
-
+    background-color: yellow;
+    font-size:1.5em;
 }
 
 tr {
     margin-right:10px;
+}
+
+th {
+    font-size:1.5em;
 }
 
 table {
