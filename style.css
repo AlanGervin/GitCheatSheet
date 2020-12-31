@@ -1,0 +1,31 @@
+body {
+    background-color:aqua;
+}
+
+h1 {
+    text-align: center;
+    color:blue;
+}
+
+table {
+ border-spacing:20px
+}
+td {
+    padding-right: 30px;
+    border: 1px solid black;
+    padding-left: 10px;
+    background-color: yellow
+
+}
+
+tr {
+    margin-right:10px;
+}
+
+table {
+    border: 1px solid black;
+}
+#gitTable {
+    margin:auto;
+}
+

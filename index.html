@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='./style.css'>
+    <title>Git cheat sheet</title>
+
+</head>
+<body>
+    <h1 class='title' id='title'>Git cheat sheet</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <table id='gitTable'>
+        <thead>
+            <th>Command</th>
+            <th>Description</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>git add -A -u</td>
+                <td>If files have moved in the your project executing this from the root directory of your project will update the files in the project</td>
+            </tr>
+            <tr>
+                <td>git reset --cached filename</td>
+                <td>remove filename from the staged area but doesn't remove it from the working folder</td>
+            </tr>
+            <tr>
+                <td>git reset --soft HEAD~1</td>
+                <td>will put changes back in the stage area up the number after HEAD~. this allows you to rewrite your commit history.</td>
+            </tr>
+            <tr>
+                <td>git reset --hard HEAD~1</td>
+                <td>will remove the last commit from the local branch before it is submitted making it appear as though it never happened in the project</td>
+            </tr>
+            <tr>
+                <td>git reset filename</td>
+                <td>will remove the file from that staged area</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
